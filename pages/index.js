@@ -31,7 +31,7 @@ export default function Home() {
         ></meta>
         <meta
           property="og:image"
-          content="https://i0.wp.com/css-tricks.com/wp-content/uploads/2016/06/facebook-card.jpg"
+          content="https://res.cloudinary.com/practicaldev/image/fetch/s--UEm2gimC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a3vzznyfqdw8dnmk68u2.png"
         ></meta>
       </Head>
       {article.map((article) => (
