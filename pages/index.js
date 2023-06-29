@@ -4,6 +4,7 @@ import Card from "@mui/joy/Card";
 import CardContent from "@mui/joy/CardContent";
 import Link from "@mui/joy/Link";
 import NextLink from "next/link";
+import Head from "next/head";
 
 export default function Home() {
   const [article, setArticles] = useState([]);
@@ -23,6 +24,16 @@ export default function Home() {
         alignItems: "center",
       }}
     >
+      <Head>
+        <meta
+          property="og:title"
+          content="https://blog-five-inky.vercel.app/"
+        ></meta>
+        <meta
+          property="og:image"
+          content="https://i0.wp.com/css-tricks.com/wp-content/uploads/2016/06/facebook-card.jpg"
+        ></meta>
+      </Head>
       {article.map((article) => (
         <Card variant="outlined" sx={{ width: 400, margin: "20px" }}>
           <div>
