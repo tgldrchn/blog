@@ -39,6 +39,7 @@ export default function Home() {
           property="og:url"
           content="https://blog-five-inky.vercel.app/"
         ></meta>
+        <meta property="fb:app_id" content="your_app_id" />
       </Head>
       {article.map((article) => (
         <Card variant="outlined" sx={{ width: 400, margin: "20px" }}>
