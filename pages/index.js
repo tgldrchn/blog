@@ -25,13 +25,19 @@ export default function Home() {
       }}
     >
       <Head>
-        <meta
-          property="og:title"
-          content="https://blog-five-inky.vercel.app/"
-        ></meta>
+        <meta property="og:title" content="This is my first blog"></meta>
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/practicaldev/image/fetch/s--UEm2gimC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a3vzznyfqdw8dnmk68u2.png"
+          content="https://www.shutterstock.com/image-photo/bloggingblog-concepts-ideas-white-worktable-260nw-1029506242.jpg"
+        ></meta>
+        <meta property="og:type" content="article"></meta>
+        <meta
+          property="og:description"
+          content="There are blogs to help developers"
+        ></meta>
+        <meta
+          property="og:url"
+          content="https://blog-five-inky.vercel.app/"
         ></meta>
       </Head>
       {article.map((article) => (
